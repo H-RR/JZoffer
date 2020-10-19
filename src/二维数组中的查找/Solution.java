@@ -1,4 +1,4 @@
-package No1;
+package 二维数组中的查找;
 
 public class Solution {
     public boolean Find(int target, int [][] array) {
@@ -18,8 +18,9 @@ public class Solution {
                     left=center+1;
                 else if(target<array[i][center])
                     right=center-1;
-                else
+                else {
                     return true;
+                }
                 center=(left+right)/2;
             }
         }
