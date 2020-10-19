@@ -1,4 +1,4 @@
-package No1;
+package 二维数组中的查找;
 public class Solution_2 {
     public boolean Find(int target, int [][] array) {
         //排除空数组
